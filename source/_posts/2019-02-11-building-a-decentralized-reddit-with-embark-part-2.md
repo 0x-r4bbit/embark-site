@@ -183,4 +183,4 @@ Compiling contracts
 
  > All tests passed</code></pre>
  
- Awesome! If you run into any issues, check out the repository with all steps recorded [here](https://github.com/embark-framework/dreddit-tutorial). In the next and last part of this series, we'll be building a front-end for our DReddit app using React. Until then, feel free to add more tests as you like!
+ Awesome! If you run into any issues, check out the repository with all steps recorded [here](https://github.com/embark-framework/dreddit-tutorial). In [the next and last part of this series](/news/2019/02/18/building-a-decentralized-reddit-with-embark-part-3/), we'll be building a front-end for our DReddit app using React. Until then, feel free to add more tests as you like!
