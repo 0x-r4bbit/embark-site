@@ -1,0 +1,75 @@
+.is-hidden {
+  display: none !important;
+}
+
+.is-hidden--small-up {
+  display: block !important;
+
+  @include respond(small) {
+    display: none !important;
+  }
+}
+
+.is-hidden--medium-up {
+  display: block !important;
+
+  @include respond(medium) {
+    display: none !important;
+  }
+  @include respond(large) {
+    display: none !important;
+  }
+  @include respond(xLarge) {
+    display: none !important;
+  }
+  @include respond(xxLarge) {
+    display: none !important;
+  }
+}
+
+.is-hidden--large-up {
+  display: block !important;
+
+  @include respond(large) {
+    display: none !important;
+  }
+  @include respond(xLarge) {
+    display: none !important;
+  }
+  @include respond(xxLarge) {
+    display: none !important;
+  }
+}
+
+.is-visible {
+  display: block !important;
+}
+.is-visible--small-up {
+  display: none !important;
+
+  @include respond(small) {
+    display: block !important;
+  }
+}
+.is-visible--medium-up {
+  display: none !important;
+
+  @include respond(medium) {
+    display: block !important;
+  }
+}
+.is-visible--large-up {
+  display: none !important;
+
+  @include respond(large) {
+    display: block !important;
+  }
+}
+
+table .is-visible--medium-up {
+  display: none !important;
+
+  @include respond(medium) {
+    display: table-cell !important;
+  }
+}

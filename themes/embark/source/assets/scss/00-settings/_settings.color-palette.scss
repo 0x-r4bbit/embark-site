@@ -1,0 +1,29 @@
+// Color Palette
+// @group Colors
+$color-palette: (
+  unique: (
+    black: #000,
+    white: #fff
+  ),
+  blue: (
+    lighter: #547E99,
+    light: #8B98AD,
+    base: #0B476D
+  ),
+  gray: (
+    lighter: #D6D9DE,
+    light: #B4BCC1,
+    base: #6E7786,
+    darkest: #080E1A
+  ),
+  green: (
+    base: #38b87c
+  ),
+  red: (
+    base: #f04747
+  ),
+  orange: (
+    light: #FBBE7D,
+    base: #FAB266
+  )
+) !default;

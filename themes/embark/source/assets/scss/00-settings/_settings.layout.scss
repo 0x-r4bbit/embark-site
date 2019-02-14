@@ -1,0 +1,17 @@
+$layout-mobile-first: true !default;
+
+// Breakpoints
+// @group Layout
+$breakpoints: (
+  s: 480px,
+  m: 600px,
+  l: 767px,
+  xl: 1023px,
+  xxl: 1200px
+) !default;
+
+
+$layout-wrapper-width: 1000px !default;
+$layout-columns: 12 !default;
+$layout-gutter-width: get-inline-spacing(m) !default;
+$layout-prevent-width: get-inline-spacing(m) !default;

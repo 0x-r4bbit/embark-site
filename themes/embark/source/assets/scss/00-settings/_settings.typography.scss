@@ -1,0 +1,45 @@
+/// Map with different sizes
+$font-size: (
+  xs: .6rem,
+  s: .8rem,
+  m: 1rem,
+  l: 1.4rem,
+  xl: 1.8rem
+) !default;
+
+// Font Base
+$font-base-family: Roboto, Helvetica, sans-serif;
+$font-base-color: get-color(gray, darkest);
+
+// Font Weight
+$font-light-weight: 200;
+$font-base-weight: 400;
+$font-bold-weight: 700;
+
+// Font Meta
+$font-meta-size: get-font-size(s);
+$font-meta-color: get-color(gray);
+
+// Font Body
+$font-body-size: get-font-size(m);
+
+// Font Title
+$font-title-size: get-font-size(xl);
+
+// Font Subtitle
+$font-subtitle-size: get-font-size(l);
+$font-subtitle-color: get-color(gray);
+
+// Font H1-H6
+$font-h1-size: get-font-size(l);
+$font-h2-size: get-font-size(l);
+$font-h3-size: get-font-size(m);
+$font-h4-size: get-font-size(m);
+$font-h5-size: get-font-size(m);
+$font-h6-size: get-font-size(s);
+
+// or maps for each component?
+$font-subtitle: (
+  size: get-font-size(m),
+  color: get-color(gray)
+);

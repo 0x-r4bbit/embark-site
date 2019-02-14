@@ -1,0 +1,12 @@
+/// Spacing Stack
+/// Get the Stack spacing of the map
+/// @group Spacing
+/// @param {string} $key
+@function get-spacing-stack($key) {
+  @if map-has-key($spacing-stack, $key) {
+    @return map-get($spacing-stack, $key);
+  }
+
+  @warn "The key #{$key} is not in the map ’$spacing-stack’";
+  @return null;
+}
