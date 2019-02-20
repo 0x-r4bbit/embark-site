@@ -78,11 +78,6 @@ gulp.task('icons', function () {
 gulp.task('pl-copy:js', function () {
   return gulp.src([
     normalizePath(paths().source.nodeModules) + '/svg4everybody/dist/svg4everybody.js',
-    normalizePath(paths().source.nodeModules) + '/lity/dist/lity.js',
-    normalizePath(paths().source.nodeModules) + '/selectize/dist/js/standalone/selectize.js',
-    normalizePath(paths().source.nodeModules) + '/air-datepicker/dist/js/datepicker.js',
-    normalizePath(paths().source.nodeModules) + '/air-datepicker/dist/js/i18n/datepicker.de.js',
-    normalizePath(paths().source.nodeModules) + '/jquery-sticky/jquery.sticky.js',
     normalizePath(paths().source.js) + '/application.js'
   ])
   .pipe(concat('application.js'))
@@ -102,8 +97,6 @@ gulp.task('pl-copy:css', function () {
 // CSS concat
 gulp.task('concat:css', function () {
   return gulp.src([
-    normalizePath(paths().source.nodeModules) + '/selectize/dist/css/selectize.css',
-    normalizePath(paths().source.nodeModules) + '/air-datepicker/dist/css/datepicker.css',
     normalizePath(paths().public.css) + '/application.css'
   ])
   .pipe(concat('application.css'))

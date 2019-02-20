@@ -3,15 +3,11 @@ a {
   color: $link-color;
   text-decoration: none;
 
-  &:hover,
-  &:visited,
-  &:focus,
-  &:visited {
-    text-decoration: none;
+  &:hover {
+    color: $link-hover-color;
   }
 
-  &:hover {
-    color: $link-color-hover;
+  &:focus {
     text-decoration: underline;
   }
 }

@@ -3,10 +3,10 @@
 /// @group Spacing
 /// @param {string} $key
 @function get-spacing-stack($key) {
-  @if map-has-key($spacing-stack, $key) {
-    @return map-get($spacing-stack, $key);
+  @if map-has-key($spacingStack, $key) {
+    @return map-get($spacingStack, $key);
   }
 
-  @warn "The key #{$key} is not in the map ’$spacing-stack’";
+  @warn "The key #{$key} is not in the map ’$spacingStack’";
   @return null;
 }

@@ -5,7 +5,7 @@
 .is-hidden--small-up {
   display: block !important;
 
-  @include respond(small) {
+  @include breakpoint(s) {
     display: none !important;
   }
 }
@@ -13,16 +13,16 @@
 .is-hidden--medium-up {
   display: block !important;
 
-  @include respond(medium) {
+  @include breakpoint(m) {
     display: none !important;
   }
-  @include respond(large) {
+  @include breakpoint(l) {
     display: none !important;
   }
-  @include respond(xLarge) {
+  @include breakpoint(xl) {
     display: none !important;
   }
-  @include respond(xxLarge) {
+  @include breakpoint(xxl) {
     display: none !important;
   }
 }
@@ -30,13 +30,13 @@
 .is-hidden--large-up {
   display: block !important;
 
-  @include respond(large) {
+  @include breakpoint(l) {
     display: none !important;
   }
-  @include respond(xLarge) {
+  @include breakpoint(xl) {
     display: none !important;
   }
-  @include respond(xxLarge) {
+  @include breakpoint(xxl) {
     display: none !important;
   }
 }
@@ -47,21 +47,21 @@
 .is-visible--small-up {
   display: none !important;
 
-  @include respond(small) {
+  @include breakpoint(s) {
     display: block !important;
   }
 }
 .is-visible--medium-up {
   display: none !important;
 
-  @include respond(medium) {
+  @include breakpoint(m) {
     display: block !important;
   }
 }
 .is-visible--large-up {
   display: none !important;
 
-  @include respond(large) {
+  @include breakpoint(l) {
     display: block !important;
   }
 }
@@ -69,7 +69,7 @@
 table .is-visible--medium-up {
   display: none !important;
 
-  @include respond(medium) {
+  @include breakpoint(m) {
     display: table-cell !important;
   }
 }

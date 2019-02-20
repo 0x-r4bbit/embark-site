@@ -3,10 +3,10 @@
 /// @group Spacing
 /// @param {string} $key
 @function get-spacing-inline($key) {
-  @if map-has-key($spacing-inline, $key) {
-    @return map-get($spacing-inline, $key);
+  @if map-has-key($spacingInline, $key) {
+    @return map-get($spacingInline, $key);
   }
 
-  @warn "The key #{$key} is not in the map ’$spacing-inline’";
+  @warn "The key #{$key} is not in the map ’$spacingInline’";
   @return null;
 }

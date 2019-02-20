@@ -3,10 +3,10 @@
 /// @group Spacing
 /// @param {string} $key
 @function get-spacing-squish($key) {
-  @if map-has-key($spacing-squish, $key) {
-    @return map-get($spacing-squish, $key);
+  @if map-has-key($spacingSquish, $key) {
+    @return map-get($spacingSquish, $key);
   }
 
-  @warn "The key #{$key} is not in the map ’$spacing-squish’";
+  @warn "The key #{$key} is not in the map ’$spacingSquish’";
   @return null;
 }
