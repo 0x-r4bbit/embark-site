@@ -1,0 +1,15 @@
+.c-notification {
+  padding: get-spacing-inset(m);
+  border: $border-width solid $border-color;
+  border-radius: $border-radius;
+}
+
+.c-notification--danger {
+  border-color: get-color-semantic(danger);
+  background: get-color-semantic(dangerGradation);
+}
+
+.c-notification--success {
+  border-color: get-color-semantic(success);
+  background: get-color-semantic(successGradation);
+}
