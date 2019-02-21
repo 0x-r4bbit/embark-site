@@ -6,6 +6,7 @@
 
   &__guide {
     left: 0;
+    height: 100%;
     position: fixed;
     top: 0;
     width: 320px;
@@ -14,6 +15,7 @@
 
     @include breakpoint(l) {
       flex: 0 0 30%;
+      height: auto;
       margin-right: get-spacing-inset(l);
       padding-right: get-spacing-inset(l);
       position: static;
