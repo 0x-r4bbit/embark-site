@@ -20,7 +20,12 @@
     }
 
     &__title {
+      margin-bottom: get-spacing-stack(m);
       margin-right: get-spacing-inline(l);
+
+      @include breakpoint(m) {
+        margin-bottom: 0;
+      }
     }
   }
   &__body {

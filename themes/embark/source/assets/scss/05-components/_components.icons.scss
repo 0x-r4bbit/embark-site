@@ -12,6 +12,11 @@ $icon-size-width: 24px !default;
   width: $icon-size-width;
 }
 
+.c-icon--xs {
+  height: 16px;
+  width: 16px;
+}
+
 .c-icon--m {
   height: 32px;
   width: 32px;

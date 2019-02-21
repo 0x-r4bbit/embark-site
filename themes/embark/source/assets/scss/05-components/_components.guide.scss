@@ -1,0 +1,21 @@
+.c-guide {
+  height: 100%;
+  background: get-color(unique, white);
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: get-spacing-inset(m);
+    border-bottom: $border-width solid $border-color;
+  }
+
+  &__body {
+    overflow: auto;
+    padding: get-spacing-inset(m);
+  }
+
+  &.is-active {
+    @include box-shadow();
+  }
+}

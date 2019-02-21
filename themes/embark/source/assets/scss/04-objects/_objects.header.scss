@@ -1,5 +1,5 @@
 .c-header {
-  padding: get-spacing-inset(l) get-spacing-inset(l) get-spacing-inset(l);
+  padding: get-spacing-inset(m) get-spacing-inset(m) get-spacing-inset(l);
   border-radius: $border-radius;
   background-color: get-color-layout(spot);
   background-image: url(../images/dummy-background.png);
@@ -30,7 +30,11 @@
   }
 
   &__body {
-    margin-top: get-spacing-stack(xl);
+    margin-top: get-spacing-stack(l);
     max-width: 600px;
+
+    @include breakpoint(l) {
+      margin-top: get-spacing-stack(xl);
+    }
   }
 }

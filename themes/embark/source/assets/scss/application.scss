@@ -54,7 +54,8 @@
         '04-objects/objects.list-bare',
         '04-objects/objects.list-inline',
         '04-objects/objects.overlap',
-        '04-objects/objects.buttonbar';
+        '04-objects/objects.buttonbar',
+        '04-objects/objects.sidebar-content';
 
 @import '05-components/components.icons',
         '05-components/components.button',
@@ -63,8 +64,11 @@
         '05-components/components.links',
         '05-components/components.tags',
         '05-components/components.avatars',
+        '05-components/components.navigations',
         '05-components/components.notifications',
-        '05-components/components.checklist';
+        '05-components/components.checklist',
+        '05-components/components.guide',
+        '05-components/components.logos';
 
 @import '06-utilities/utilities.list-reset',
         '06-utilities/utilities.visibility',

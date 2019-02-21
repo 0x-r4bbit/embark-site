@@ -31,6 +31,7 @@ input[type="color"] {
 }
 
 input[type="search"] {
+  padding: get-spacing-inset(m);
   border-radius: $border-rounded-radius;
 }
 

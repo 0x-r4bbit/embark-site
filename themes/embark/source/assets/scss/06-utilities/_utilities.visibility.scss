@@ -1,75 +1,31 @@
-.is-hidden {
-  display: none !important;
+.u-hidden {
+  display: none;
 }
 
-.is-hidden--small-up {
-  display: block !important;
-
-  @include breakpoint(s) {
-    display: none !important;
-  }
-}
-
-.is-hidden--medium-up {
-  display: block !important;
+.u-hidden-until-medium {
+  display: none;
 
   @include breakpoint(m) {
-    display: none !important;
-  }
-  @include breakpoint(l) {
-    display: none !important;
-  }
-  @include breakpoint(xl) {
-    display: none !important;
-  }
-  @include breakpoint(xxl) {
-    display: none !important;
+    display: initial;
   }
 }
 
-.is-hidden--large-up {
-  display: block !important;
+.u-hidden-until-large {
+  display: none;
 
   @include breakpoint(l) {
-    display: none !important;
-  }
-  @include breakpoint(xl) {
-    display: none !important;
-  }
-  @include breakpoint(xxl) {
-    display: none !important;
+    display: initial;
   }
 }
 
-.is-visible {
-  display: block !important;
-}
-.is-visible--small-up {
-  display: none !important;
-
-  @include breakpoint(s) {
-    display: block !important;
-  }
-}
-.is-visible--medium-up {
-  display: none !important;
-
+.u-hidden-medium-up {
   @include breakpoint(m) {
-    display: block !important;
+    display: none;
   }
 }
-.is-visible--large-up {
-  display: none !important;
 
+.u-hidden-large-up {
   @include breakpoint(l) {
-    display: block !important;
-  }
-}
-
-table .is-visible--medium-up {
-  display: none !important;
-
-  @include breakpoint(m) {
-    display: table-cell !important;
+    display: none;
   }
 }

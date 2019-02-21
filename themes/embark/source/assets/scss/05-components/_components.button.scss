@@ -48,6 +48,10 @@ $button-plain-font-color: get-color-brand(secondary) !default;
     background-color: $button-hover-background-color;
     color: $button-hover-font-color;
   }
+
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 /// Quite Button
